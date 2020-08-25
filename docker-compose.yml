@@ -1,0 +1,45 @@
+version: '3'
+
+volumes:
+    pgdata:
+        driver: local
+
+services:
+
+    nginx:
+        restart: always
+        image: nginx:latest
+        expose:
+          - 8080
+        ports:
+          - "90:8080"
+        volumes:
+            - ./jangoMiniShop/static:/srv/www/jangoMiniShop/static
+            - ./jangoMiniShop/media:/srv/www/jangoMiniShop/media
+            - ./jangoMiniShop/logs:/srv/www/jangoMiniShop/logs
+            - ./docker/nginx:/etc/nginx/conf.d
+        depends_on:
+            - python
+
+    python:
+        restart: always
+        build:
+            context: .
+            dockerfile: docker/python/Dockerfile
+        volumes:
+            - ./jangoMiniShop:/srv/www/jangoMiniShop
+        ports:
+            - 8000:8000
+        command: gunicorn jangoMiniShop.wsgi:application --bind 0.0.0.0:8000
+
+    postgres:
+        image: postgres:latest
+        ports:
+            - 33066:3306
+        environment:
+            POSTGRES_USER: ${SQL_USER}
+            POSTGRES_PASSWORD: ${SQL_PASSWORD}
+            POSTGRES_DB: ${SQL_DATABASE}
+            TZ: ${TZ}
+        volumes:
+            - pgdata:/var/lib/postgresql/data

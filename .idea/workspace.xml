@@ -1,14 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4819ce6f-3f58-40d3-836c-d5200174d7d1" name="Default Changelist" comment="" />
+    <list default="true" id="4819ce6f-3f58-40d3-836c-d5200174d7d1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jangoMiniShop/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jangoMiniShop/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jangoMiniShop/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jangoMiniShop/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="JupyterTrust" id="86efd467-78cb-4a10-b607-592a70e57462" />
   <component name="ProjectId" id="1gXCkRDSEzFnkt4EBHdX38NJwaY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -16,7 +52,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/venv/bin/activate.csh" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jangoMiniShop" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/docker" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -26,11 +74,48 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598251693601</updated>
-      <workItem from="1598251694716" duration="667000" />
+      <workItem from="1598251694716" duration="3631000" />
+      <workItem from="1598345601258" duration="50000" />
+      <workItem from="1598345653730" duration="86000" />
+      <workItem from="1598345934464" duration="259000" />
+      <workItem from="1598346839653" duration="109000" />
+      <workItem from="1598346979192" duration="8734000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="696" y="315" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598348041627">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="696" y="315" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1598348041627" />
+    <state x="744" y="281" key="FileChooserDialogImpl" timestamp="1598345649859">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="744" y="281" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1598345649859" />
+    <state x="457" y="158" width="1007" height="734" key="SettingsEditor" timestamp="1598347262883">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="457" y="158" width="1007" height="734" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1598347262883" />
+    <state x="620" y="169" width="672" height="676" key="search.everywhere.popup" timestamp="1598346073662">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="620" y="169" width="672" height="676" key="search.everywhere.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1598346073662" />
   </component>
 </project>
