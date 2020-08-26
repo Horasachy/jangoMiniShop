@@ -20,12 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4819ce6f-3f58-40d3-836c-d5200174d7d1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.env.exemple" beforeDir="false" afterPath="$PROJECT_DIR$/.env.exemple" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jangoMiniShop/gunicorn.py" beforeDir="false" afterPath="$PROJECT_DIR$/jangoMiniShop/gunicorn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,20 +49,23 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/venv/bin/activate.csh" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="add_unversioned_files" value="true&#10;/home/horasachy/projects/python/jangoMiniShop/.env" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jangoMiniShop" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jangoMiniShop" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/docker" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/jangoMiniShop" />
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/docker" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -79,7 +81,8 @@
       <workItem from="1598345653730" duration="86000" />
       <workItem from="1598345934464" duration="259000" />
       <workItem from="1598346839653" duration="109000" />
-      <workItem from="1598346979192" duration="8734000" />
+      <workItem from="1598346979192" duration="9389000" />
+      <workItem from="1598419135488" duration="1386000" />
     </task>
     <servers />
   </component>
@@ -99,8 +102,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="556" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598420522120">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="556" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1598420522120" />
     <state x="696" y="315" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598348041627">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>

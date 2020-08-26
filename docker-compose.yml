@@ -35,7 +35,7 @@ services:
     postgres:
         image: postgres:latest
         ports:
-            - 33066:3306
+            - 5432:5432
         environment:
             POSTGRES_USER: ${SQL_USER}
             POSTGRES_PASSWORD: ${SQL_PASSWORD}

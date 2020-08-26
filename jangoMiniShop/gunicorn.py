@@ -6,7 +6,7 @@ def max_workers():
     return cpu_count()
 
 user = 'www'
-bind = '127.0.0.1:8001'
+bind = '0.0.0.0:8000'
 max_requests = 1000
 worker_class = 'gevent'
 workers = max_workers()
