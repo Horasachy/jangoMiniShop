@@ -30,9 +30,10 @@ services:
             - ./jangoMiniShop:/srv/www/jangoMiniShop
         ports:
             - 8000:8000
-        command: gunicorn jangoMiniShop.wsgi:application --bind 0.0.0.0:8000
+#        command: gunicorn jangoMiniShop.wsgi:application --bind 0.0.0.0:8000 #prodaction
+        command: python manage.py runserver 0.0.0.0:8000
 
-    postgres:
+    db:
         image: postgres:latest
         ports:
             - 5432:5432

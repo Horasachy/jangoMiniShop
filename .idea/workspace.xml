@@ -16,15 +16,23 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4819ce6f-3f58-40d3-836c-d5200174d7d1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env.exemple" beforeDir="false" afterPath="$PROJECT_DIR$/.env.exemple" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/gunicorn.py" beforeDir="false" afterPath="$PROJECT_DIR$/jangoMiniShop/gunicorn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/nginx/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/docker/nginx/default.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jangoMiniShop/gunicorn.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jangoMiniShop/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/jangoMiniShop/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +42,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -51,19 +60,24 @@
   <component name="PropertiesComponent">
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="true&#10;/home/horasachy/projects/python/jangoMiniShop/.env" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/jangoMiniShop" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="add_unversioned_files" value="true&#10;/home/horasachy/projects/python/jangoMiniShop/venv/lib/python3.8/site-packages/django/db/backends/postgresql/base.py&#10;/home/horasachy/projects/python/jangoMiniShop/.env" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jangoMiniShop/account" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jangoMiniShop/account" />
       <recent name="$PROJECT_DIR$/jangoMiniShop" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/docker" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jangoMiniShop/register/templates/register" />
+      <recent name="$PROJECT_DIR$/jangoMiniShop/main/templates/main" />
       <recent name="$PROJECT_DIR$/jangoMiniShop" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -82,7 +96,9 @@
       <workItem from="1598345934464" duration="259000" />
       <workItem from="1598346839653" duration="109000" />
       <workItem from="1598346979192" duration="9389000" />
-      <workItem from="1598419135488" duration="1386000" />
+      <workItem from="1598419135488" duration="12755000" />
+      <workItem from="1598441294088" duration="4052000" />
+      <workItem from="1598508128853" duration="9855000" />
     </task>
     <servers />
   </component>
@@ -97,7 +113,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -105,10 +133,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="556" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598420522120">
+    <state x="556" y="184" width="808" height="681" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598510860248">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="556" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1598420522120" />
+    <state x="556" y="184" width="808" height="681" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1598510860248" />
     <state x="696" y="315" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598348041627">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
@@ -117,13 +145,17 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="744" y="281" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1598345649859" />
-    <state x="457" y="158" width="1007" height="734" key="SettingsEditor" timestamp="1598347262883">
+    <state x="457" y="158" width="1007" height="734" key="SettingsEditor" timestamp="1598441263035">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="457" y="158" width="1007" height="734" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1598347262883" />
+    <state x="457" y="158" width="1007" height="734" key="SettingsEditor/0.0.1920.1044@0.0.1920.1044" timestamp="1598441263035" />
     <state x="620" y="169" width="672" height="676" key="search.everywhere.popup" timestamp="1598346073662">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="620" y="169" width="672" height="676" key="search.everywhere.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1598346073662" />
+    <state x="1166" y="344" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1598516872194">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="1166" y="344" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1598516872194" />
   </component>
 </project>
