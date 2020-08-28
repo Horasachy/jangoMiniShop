@@ -27,9 +27,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4819ce6f-3f58-40d3-836c-d5200174d7d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/nginx/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/docker/nginx/default.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/gunicorn.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jangoMiniShop/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/jangoMiniShop/requirements.txt" afterDir="false" />
@@ -98,7 +95,8 @@
       <workItem from="1598346979192" duration="9389000" />
       <workItem from="1598419135488" duration="12755000" />
       <workItem from="1598441294088" duration="4052000" />
-      <workItem from="1598508128853" duration="9855000" />
+      <workItem from="1598508128853" duration="15581000" />
+      <workItem from="1598596373764" duration="6314000" />
     </task>
     <servers />
   </component>
@@ -153,9 +151,9 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="620" y="169" width="672" height="676" key="search.everywhere.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1598346073662" />
-    <state x="1166" y="344" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1598516872194">
+    <state x="1166" y="344" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1598608603758">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="1166" y="344" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1598516872194" />
+    <state x="1166" y="344" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1598608603758" />
   </component>
 </project>
