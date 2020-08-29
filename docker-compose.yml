@@ -16,7 +16,7 @@ services:
         volumes:
             - ./jangoMiniShop/static:/srv/www/jangoMiniShop/static
             - ./jangoMiniShop/media:/srv/www/jangoMiniShop/media
-            - ./jangoMiniShop/logs:/srv/www/jangoMiniShop/logs
+            - ./logs:/srv/www/logs
             - ./docker/nginx:/etc/nginx/conf.d
         depends_on:
             - python

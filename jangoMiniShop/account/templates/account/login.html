@@ -3,19 +3,28 @@
 {% block title %}registration{% endblock %}
 
 {% block content %}
-<form method="POST" class="form-fieldset" action="/register">
-    {% csrf_token %}
-    <div class="form-group">
-        <label class="form-label">Login<span class="form-required">*</span></label>
-        <input type="text" name="login" class="form-control">
+<div class="container">
+    <div class="card mt-3">
+        <div class="card-header">
+            Sing in
+        </div>
+        <div class="card-body">
+            <form method="POST" action="/login">
+                {% csrf_token %}
+                {% for field in form %}
+                    {% for error in field.errors %}
+                        <p style="color: red">{{ error }}</p>
+                    {% endfor %}
+                    <div class="form-group mb-3 row">
+                        <label class="form-label col-3 col-form-label">{{field.label}}</label>
+                        <div class="col">
+                            {{field}}
+                        </div>
+                    </div>
+                {% endfor %}
+                <button type="submit">Login</button>
+            </form>
+        </div>
     </div>
-    <div class="form-group">
-        <label class="form-label">Password<span class="form-required">*</span></label>
-        <input type="password" name="password" class="form-control">
-    </div>
-    <div class="form-group mb-0">
-        <label class="form-label">Confirm password</label>
-        <input type="password" name="confirm_password" class="form-control">
-    </div>
-</form>
+</div>
 {% endblock %}
