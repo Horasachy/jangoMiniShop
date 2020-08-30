@@ -33,6 +33,15 @@
                 </ul>
 
                 <nav class="nav-item dropdown">
+                    <div class="row">
+                    <div class="col-md-6">
+                        {% with total_items=cart|length %}
+                                Your cart:
+                                    {{ cart.get_count_card }} item{{ total_items|pluralize }},
+                                    ${{ cart.get_total_price }}
+                        {% endwith %}
+                    </div>
+                    <div class="col">
                     <a class="nav-link dropdown-toggle" href="#" id="dropdown09" data-toggle="dropdown"
                        aria-haspopup="true" aria-expanded="false">{{user}}</a>
                     <div class="dropdown-menu" aria-labelledby="dropdown09">
@@ -41,14 +50,18 @@
                         {% endif %}
                         <a class="dropdown-item" href="/logout">Logout</a>
                     </div>
+                        </div>
+                        </div>
                 </nav>
                 {% else %}
-            </div>
-            <div class="float-right">
-                <a class="btn btn-outline-primary" href="/register">Sign up</a>
-                <a class="btn btn-outline-primary ml-2" href="/login">Sign in</a>
-            </div>
+                <div class="nav navbar-nav">
+                    <a class="btn btn-outline-primary" href="/register">Sign up</a>
+                    <a class="btn btn-outline-primary ml-2" href="/login">Sign in</a>
+                </div>
                 {% endif %}
+            </div>
+
+
         </div>
     </nav>
     {% endblock %}

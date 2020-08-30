@@ -26,149 +26,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4819ce6f-3f58-40d3-836c-d5200174d7d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/nginx/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/docker/nginx/default.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jangoMiniShop/account/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/jangoMiniShop/account/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jangoMiniShop/account/templates/account/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/jangoMiniShop/account/templates/account/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jangoMiniShop/account/templates/account/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/jangoMiniShop/account/templates/account/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/account/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/jangoMiniShop/account/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/account/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/jangoMiniShop/account/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/css/autocomplete.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/css/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/css/changelists.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/css/dashboard.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/css/fonts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/css/forms.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/css/nav_sidebar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/css/responsive.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/css/responsive_rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/css/rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/css/vendor/select2/LICENSE-SELECT2.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/css/vendor/select2/select2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/css/vendor/select2/select2.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/css/widgets.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/fonts/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/fonts/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/fonts/Roboto-Bold-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/fonts/Roboto-Light-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/fonts/Roboto-Regular-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/img/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/img/README.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/img/calendar-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/img/gis/move_vertex_off.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/img/gis/move_vertex_on.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/img/icon-addlink.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/img/icon-alert.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/img/icon-calendar.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/img/icon-changelink.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/img/icon-clock.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/img/icon-deletelink.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/img/icon-no.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/img/icon-unknown-alt.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/img/icon-unknown.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/img/icon-viewlink.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/img/icon-yes.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/img/inline-delete.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/img/search.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/img/selector-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/img/sorting-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/img/tooltag-add.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/img/tooltag-arrowright.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/SelectBox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/SelectFilter2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/actions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/actions.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/admin/DateTimeShortcuts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/admin/RelatedObjectLookups.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/autocomplete.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/calendar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/cancel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/change_form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/collapse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/collapse.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/inlines.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/inlines.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/jquery.init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/nav_sidebar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/popup_response.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/prepopulate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/prepopulate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/prepopulate_init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/urlify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/jquery/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/jquery/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/af.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/ar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/az.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/bg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/bn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/bs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/cs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/da.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/de.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/dsb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/el.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/et.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/eu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/fa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/fi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/fr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/gl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/he.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/hi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/hr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/hsb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/hu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/hy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/id.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/is.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/it.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/ja.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/ka.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/km.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/ko.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/lt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/lv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/mk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/ms.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/nb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/ne.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/nl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/pl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/ps.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/pt-BR.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/pt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/ro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/ru.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/sk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/sl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/sq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/sr-Cyrl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/sr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/sv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/th.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/tk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/tr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/uk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/vi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/zh-CN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/i18n/zh-TW.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/select2.full.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/select2/select2.full.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/xregexp/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/xregexp/xregexp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/jangoMiniShop/static/admin/js/vendor/xregexp/xregexp.min.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/jangoMiniShop/main/templates/main/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/jangoMiniShop/main/templates/main/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/products/templates/products/create.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jangoMiniShop/products/templates/products/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jangoMiniShop/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/jangoMiniShop/main/templates/main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jangoMiniShop/products/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/jangoMiniShop/products/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jangoMiniShop/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/jangoMiniShop/products/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jangoMiniShop/products/templates/products/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/jangoMiniShop/products/templates/products/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jangoMiniShop/products/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/jangoMiniShop/products/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jangoMiniShop/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/jangoMiniShop/products/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -204,6 +73,7 @@
     <property name="add_unversioned_files" value="true&#10;/home/horasachy/projects/python/jangoMiniShop/venv/lib/python3.8/site-packages/django/db/backends/postgresql/base.py&#10;/home/horasachy/projects/python/jangoMiniShop/.env" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/jangoMiniShop/account" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -238,6 +108,7 @@
       <workItem from="1598508128853" duration="15581000" />
       <workItem from="1598596373764" duration="11435000" />
       <workItem from="1598683385335" duration="14990000" />
+      <workItem from="1598767883124" duration="12066000" />
     </task>
     <servers />
   </component>
@@ -253,6 +124,11 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
@@ -276,10 +152,14 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="556" y="184" width="808" height="681" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1598510860248" />
-    <state x="696" y="315" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598348041627">
+    <state x="696" y="315" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598780086751">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
-    <state x="696" y="315" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1598348041627" />
+    <state x="696" y="315" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1598780086751" />
+    <state x="96" y="100" width="1728" height="850" key="DiffContextDialog" timestamp="1598778278434">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="96" y="100" width="1728" height="850" key="DiffContextDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1598778278434" />
     <state x="744" y="281" key="FileChooserDialogImpl" timestamp="1598345649859">
       <screen x="0" y="0" width="1920" height="1044" />
     </state>

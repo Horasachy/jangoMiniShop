@@ -14,3 +14,5 @@ class LoginUserForm(AuthenticationForm):
         model = User
         fields = ('username', 'password')
 
+    username = forms.CharField()
+    password = forms.CharField(widget=forms.PasswordInput)
