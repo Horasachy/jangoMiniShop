@@ -3,32 +3,35 @@
 {% block title %}Products{% endblock %}
 
 {% block content %}
-    <div class="container mt-3">
-        <div class="row">
-            {% for product in products %}
-            <form class="col-md-4" action="{% url "cart_add" product.id %}" method="post">
-                {%csrf_token%}
-                {{ cart_product_form }}
-<input type="submit" value="Add to cart">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="/media/{{MEDIA_URL}}/{{product.preview_image}}" width="286px"
-                             height="180px" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">{{product.name}}</h5>
-                            <p class="card-text">{{product.description}}</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                            <a href="#" class="btn btn-primary mt-2">Add to Shopping Cart</a>
+<div class="container mt-3">
+    <div class="row">
+        {% for product in products %}
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="/media/{{MEDIA_URL}}/{{product.preview_image}}" width="286px"
+                     height="180px" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">{{product.name}}</h5>
+                    <p class="card-text">{{product.description}}</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <form action="{% url "cart_add" product.id %}" method="post">
+                        {%csrf_token%}
+                        <div class="d-flex mt-2">
+                            <div>{{ cart_product_form }}</div>
+                            <div class="ml-2"><input class="btn btn-primary btn-sm" type="submit" value="Add to cart"></div>
                         </div>
-                    </div>
-            </form>
-          {% endfor %}
+                    </form>
+                </div>
+            </div>
         </div>
+        {% endfor %}
     </div>
+</div>
 {% endblock %}
 
 
-    <!--        {% for image in product.photos.all %}-->
+<!--        {% for image in product.photos.all %}-->
 
-    <!--            <img src="/media/{{MEDIA_URL}}{{ image.image }}">-->
+<!--            <img src="/media/{{MEDIA_URL}}{{ image.image }}">-->
 
-    <!--        {% endfor %}-->
+<!--        {% endfor %}-->
