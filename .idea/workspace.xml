@@ -28,6 +28,7 @@
     <list default="true" id="4819ce6f-3f58-40d3-836c-d5200174d7d1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jangoMiniShop/products/templates/products/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/jangoMiniShop/products/templates/products/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jangoMiniShop/products/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/jangoMiniShop/products/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jangoMiniShop/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/jangoMiniShop/products/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +100,7 @@
       <workItem from="1598596373764" duration="11435000" />
       <workItem from="1598683385335" duration="14990000" />
       <workItem from="1598767883124" duration="13241000" />
-      <workItem from="1598852333570" duration="1755000" />
+      <workItem from="1598852333570" duration="3024000" />
     </task>
     <servers />
   </component>

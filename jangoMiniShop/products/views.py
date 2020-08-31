@@ -17,6 +17,15 @@ def index(request):
     return render(request, 'products/index.html', context)
 
 
+def product(request, product_id):
+    product = Product.objects.get(id=product_id)
+    context = {
+        'product': product,
+        'cart_product_form': CartAddProductForm()
+    }
+    return render(request, 'products/product.html', context)
+
+
 @require_POST
 def cart_add(request, product_id):
     cart = Cart(request)
