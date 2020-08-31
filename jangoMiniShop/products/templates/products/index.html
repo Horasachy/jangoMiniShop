@@ -5,8 +5,15 @@
 {% block content %}
 <div class="container mt-3">
     <div class="row">
+        <div class="col-md-12">
+            <form class="form-inline my-2 my-lg-0 float-right" method="GET">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
         {% for product in products %}
-        <div class="col-4">
+
+        <div class="col-4 mt-3">
             <div class="card" style="width: 18rem;">
                 <img class="card-img-top" src="/media/{{MEDIA_URL}}/{{product.preview_image}}" width="286px"
                      height="180px" alt="Card image cap">

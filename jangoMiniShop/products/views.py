@@ -4,13 +4,16 @@ from django.views.decorators.http import require_POST
 from .cart import Cart
 from .models import Product
 from .forms import CartAddProductForm
+from .filters import Builder
 
 
 @login_required(login_url='login')
 def index(request):
-    cart_product_form = CartAddProductForm()
-    context = {'products': Product.objects.all(), 'cart_product_form': cart_product_form}
-
+    builder = Builder(request)
+    context = {
+        'products': builder.get_filtered_products(),
+        'cart_product_form': CartAddProductForm()
+    }
     return render(request, 'products/index.html', context)
 
 
@@ -35,7 +38,5 @@ def cart_remove(request, product_id):
 
 
 def cart_detail(request):
-
     cart = Cart(request)
-    print(cart)
     return render(request, 'products/detail.html', {'cart': cart})
