@@ -17,6 +17,7 @@ def index(request):
     return render(request, 'products/index.html', context)
 
 
+@login_required(login_url='login')
 def product(request, product_id):
     product = Product.objects.get(id=product_id)
     context = {
@@ -39,6 +40,7 @@ def cart_add(request, product_id):
     return redirect('cart_detail')
 
 
+@login_required(login_url='login')
 def cart_remove(request, product_id):
     cart = Cart(request)
     product = get_object_or_404(Product, id=product_id)
@@ -46,6 +48,7 @@ def cart_remove(request, product_id):
     return redirect('cart_detail')
 
 
+@login_required(login_url='login')
 def cart_detail(request):
     cart = Cart(request)
     return render(request, 'products/detail.html', {'cart': cart})
