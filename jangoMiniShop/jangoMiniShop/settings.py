@@ -9,8 +9,11 @@ https://docs.djangoproject.com/en/2.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.2/ref/settings/
 """
-
+import environ
 import os
+
+env = environ.Env()
+environ.Env.read_env()
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -37,7 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'main.apps.MainConfig',
     'account.apps.AccountConfig',
-    'products.apps.ProductsConfig'
+    'products.apps.ProductsConfig',
+    'telegram.apps.TelegramConfig'
 ]
 
 MIDDLEWARE = [
@@ -76,12 +80,12 @@ WSGI_APPLICATION = 'jangoMiniShop.wsgi.application'
 
 DATABASES = {
     "default": {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'dev',
-        'USER': 'dev',
-        'PASSWORD': 'dev',
-        'HOST': 'db',
-        'PORT': '5432',
+        'ENGINE': env('SQL_ENGINE'),
+        'NAME': env('SQL_DATABASE'),
+        'USER': env('SQL_USER'),
+        'PASSWORD': env('SQL_PASSWORD'),
+        'HOST': env('SQL_HOST'),
+        'PORT': env('SQL_PORT'),
     }
 }
 
@@ -129,3 +133,5 @@ LOGIN_REDIRECT_URL = '/products'
 LOGOUT_REDIRECT_URL = '/login'
 
 CART_SESSION_ID = 'cart'
+
+TELEGRAM_API_TOKEN = env('TELEGRAM_API_TOKEN')
