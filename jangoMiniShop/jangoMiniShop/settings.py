@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'main.apps.MainConfig',
     'account.apps.AccountConfig',
     'products.apps.ProductsConfig',
-    'telegram.apps.TelegramConfig'
+    'telegram.apps.TelegramConfig',
+    'orders.apps.OrdersConfig'
 ]
 
 MIDDLEWARE = [
@@ -68,6 +69,7 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'products.context_processors.cart',
+                'orders.context_processors.orders',
             ],
         },
     },

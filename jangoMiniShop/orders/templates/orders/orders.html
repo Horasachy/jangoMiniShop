@@ -1,0 +1,41 @@
+{% extends "main/base.html" %}
+
+{% block title %}Orders{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="card mt-3">
+        <div class="card-header">
+            Orders
+        </div>
+        <div class="card-body">
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Product</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Quantity</th>
+                        <th scope="col">Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for order in orders %}
+                        <tr>
+                            <th scope="row">{{order.id}}</th>
+                            <td>{{order.product.name}}</td>
+                            <td>{{order.product.price}}</td>
+                            <td>{{order.quantity}}</td>
+                            <td>{{order.price_total}}</td>
+                        </tr>
+                    {% endfor %}
+                        <tr class="total">
+                            <td colspan="4"></td>
+                            <td class="num">${{ orders_total }}</td>
+                        </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -32,12 +32,12 @@
 
                 <nav class="nav-item dropdown">
                     <div class="row">
-                    <div class="col-md-6">
-                        {% with total_items=cart|length %}
-                                Your cart:
-                                    {{ cart.get_count_card }} item{{ total_items|pluralize }},
-                                    ${{ cart.get_total_price }}
-                        {% endwith %}
+                    <div class="col-5">
+                        Your orders: <a href="{%url "view_order" %}">{{orders|length}} orders</a>
+                    </div>
+                    <div class="col-md-3">
+                        Your cart: <a href="{%url "cart_detail" %}"> {{ cart.get_count_card }} items</a>,
+                            ${{ cart.get_total_price }}
                     </div>
                     <div class="col">
                     <a class="nav-link dropdown-toggle" href="#" id="dropdown09" data-toggle="dropdown"
@@ -46,15 +46,15 @@
                         {% if user.is_superuser %}
                         <a class="dropdown-item" href="/admin">Admin Panel</a>
                         {% endif %}
-                        <a class="dropdown-item" href="/logout">Logout</a>
+                        <a class="dropdown-item" href="{%url "logout" %}">Logout</a>
                     </div>
                         </div>
                         </div>
                 </nav>
                 {% else %}
                 <div class="nav navbar-nav">
-                    <a class="btn btn-outline-primary" href="/register">Sign up</a>
-                    <a class="btn btn-outline-primary ml-2" href="/login">Sign in</a>
+                    <a class="btn btn-outline-primary" href="{%url "register" %}">Sign up</a>
+                    <a class="btn btn-outline-primary ml-2" href="{%url "login" %}">Sign in</a>
                 </div>
                 {% endif %}
             </div>
