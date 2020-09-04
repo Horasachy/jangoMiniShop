@@ -6,22 +6,25 @@ Your shopping cart
 {% block content %}
 <div class="container mt-1">
     <h1>Your shopping cart</h1>
-    <form method="POST" action="{% url "order_save" %}">
-        <table class="table">
-            <thead class="thead-dark">
-                <tr>
-                    <th>Image</th>
-                    <th>Product</th>
-                    <th>Quantity</th>
-                    <th>Remove</th>
-                    <th>Unit price</th>
-                    <th>Price</th>
-                </tr>
-            </thead>
-            <tbody>
-                {%csrf_token%}
-                {% for item in cart %}
-                    {% with product=item.product %}
+
+    <table class="table">
+        <thead class="thead-dark">
+        <tr>
+            <th>Image</th>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Remove</th>
+            <th>Unit price</th>
+            <th>Price</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+
+        {% for item in cart %}
+            {% with product=item.product %}
+                <form method="POST" action="{% url "order_save" %}">
+                    {%csrf_token%}
                     <input type="hidden" name="product" value="{{product.id}}">
                     <input type="hidden" name="user" value="{{user.id}}">
                     <input type="hidden" name="quantity" value="{{item.quantity}}">
@@ -34,20 +37,22 @@ Your shopping cart
                         <td><a href="{% url "cart_remove" product.id%}">Remove</a></td>
                         <td class="num">${{ item.price }}</td>
                         <td class="num">${{ item.total_price }}</td>
+                        <td>
+                            {%if cart.get_total_price > 0 %}
+                            <button type="submit" class="btn btn-primary float-right">To order</button>
+                            {%endif%}
+                        </td>
                     </tr>
-                    {% endwith %}
-                {% endfor %}
-                <tr class="total">
-                    <td>Total</td>
-                    <td colspan="4"></td>
-                    <td class="num">${{ cart.get_total_price }}</td>
-                </tr>
-            </tbody>
-        </table>
+                </form>
+            {% endwith %}
+        {% endfor %}
+        <tr class="total">
+            <td>Total</td>
+            <td colspan="4"></td>
+            <td class="num">${{ cart.get_total_price }}</td>
+        </tr>
+        </tbody>
+    </table>
 
-        {%if cart.get_total_price > 0 %}
-            <button type="submit" class="btn btn-primary float-right">To order</button>
-        {%endif%}
-    </form>
 </div>
 {% endblock %}

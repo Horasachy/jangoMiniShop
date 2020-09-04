@@ -1,7 +1,9 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from .models import Order
 from .forms import OrderCreate
 from .getters import OrderGetters
+from products.cart import Cart
+from products.models import Product
 
 
 def view_order(request):
@@ -15,6 +17,11 @@ def view_order(request):
 
 def save_order(request):
     order = OrderCreate(request.POST)
+    product = get_object_or_404(Product, id=request.POST['product'])
+    cart = Cart(request)
     if order.is_valid():
+        cart.remove(product)
         order.save()
-        return redirect('view_order')
+    return redirect('view_order')
+
+
