@@ -27,6 +27,7 @@ def product(request, product_id):
     return render(request, 'products/product.html', context)
 
 
+@login_required(login_url='login')
 @require_POST
 def cart_add(request, product_id):
     cart = Cart(request)

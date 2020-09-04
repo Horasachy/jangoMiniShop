@@ -17,6 +17,7 @@
                         <th scope="col">Price</th>
                         <th scope="col">Quantity</th>
                         <th scope="col">Total</th>
+                        <th scope="col"></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -27,6 +28,11 @@
                             <td>{{order.product.price}}</td>
                             <td>{{order.quantity}}</td>
                             <td>{{order.price_total}}</td>
+                            <td>
+                                 <div class="btn btn-danger" onclick="deleteItem('{% url 'delete_order' order.id %}','{{csrf_token}}')">
+                                       delete
+                                 </div>
+                            </td>
                         </tr>
                     {% endfor %}
                         <tr class="total">
