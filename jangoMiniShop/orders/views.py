@@ -1,13 +1,13 @@
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect, get_object_or_404
 from django.views.decorators.csrf import csrf_exempt
-
+from django.http import JsonResponse, HttpResponse
 from .models import Order
 from .forms import OrderCreate
 from .getters import OrderGetters
 from products.cart import Cart
 from products.models import Product
-from django.http import JsonResponse, HttpResponse
+
 
 
 @login_required(login_url='login')
