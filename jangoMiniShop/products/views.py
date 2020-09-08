@@ -9,9 +9,8 @@ from .filters import Builder
 
 @login_required(login_url='login')
 def index(request):
-    builder = Builder(request)
     context = {
-        'products': builder.get_filtered_products(),
+        'products': Builder(request).get_filtered_products(),
         'cart_product_form': CartAddProductForm()
     }
     return render(request, 'products/index.html', context)
@@ -19,9 +18,8 @@ def index(request):
 
 @login_required(login_url='login')
 def product(request, product_id):
-    product = Product.objects.get(id=product_id)
     context = {
-        'product': product,
+        'product': Product.objects.get(id=product_id),
         'cart_product_form': CartAddProductForm()
     }
     return render(request, 'products/product.html', context)

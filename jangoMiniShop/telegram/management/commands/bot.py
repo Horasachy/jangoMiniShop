@@ -1,8 +1,10 @@
 import telebot
 from telebot import types
+from telegram_bot_pagination import InlineKeyboardPaginator
 from django.core.management.base import BaseCommand
 from jangoMiniShop import settings
 from products.models import Product
+
 import os
 
 bot = telebot.TeleBot(settings.TELEGRAM_API_TOKEN)
@@ -12,6 +14,8 @@ class Command(BaseCommand):
     help = 'Telegram Bot'
 
     def handle(self, *args, **options):
+        @bot.message_handler(func=lambda message: True)
+
         @bot.message_handler(content_types=['text'])
         def any_message(message):
             Keyboard = types.InlineKeyboardMarkup(row_width=2)

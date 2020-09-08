@@ -21,3 +21,6 @@ superuser:
 python:
 	@docker exec -it jangominishop_python_1 /bin/bash
 
+bot:
+	@docker exec -it jangominishop_python_1 python manage.py bot
+
