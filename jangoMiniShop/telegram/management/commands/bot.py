@@ -95,6 +95,7 @@ class Command(BaseCommand):
             for product in products:
                 Keyboard.add(
                     types.InlineKeyboardButton(text='Order a product', callback_data="order_product_" + product.name))
+                break
             Keyboard.add(types.InlineKeyboardButton(text='Back to main menu', callback_data="return_back"))
             return Keyboard
 
